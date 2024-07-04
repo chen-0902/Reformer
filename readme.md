@@ -1,6 +1,6 @@
 # COMP 7404 Group Project
 
-## Group Members
+## Group 5 Members
 * Feng Chenchen (group coordinator) u3612248@connect.hku.hk
 * Li Xiaolong xia01ong@connect.hku.hk
 * Tu Yuxi u3621409@connect.hku.hk
