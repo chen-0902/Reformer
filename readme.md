@@ -18,8 +18,13 @@ Based on the results, we observed that the Reformer model can achieve similar pe
 ## Experiment Results
 |                        | Accuracy | F1-Score |  
 |------------------------|:------:|:-----:|
-| **Transformer**     | 0.7884 | 0.7730 | 
-| **Reformer**          | 0.7808 | 0.7870 |
+| **Transformer**     | 0.7868 | 0.7930 | 
+| **Reformer**          | 0.7709 | 0.7758 |
+
+## Instruction to Run the Code
+* `sentiment_analysis.ipynb` contains the code for training and evaluating the Transformer and Reformer models on the IMDB dataset. To run the code, you need to install the required packages: torch, torchtext, and reformer_pytorch.
+* `inference.ipynb` contains the code for loading the trained models and making predictions on new text samples through a gradio interface. To run the code, you need to install the gradio package.
+* `reformer_model_weights.pth` and `transformer_model_weights.pth` are the trained weights of the Reformer and Transformer models, respectively. You can load these weights to the models for inference. You can download from this link: https://drive.google.com/file/d/1vY6YuOrBfIoe6qHKjm9_F0XvLYnVrRp5/view?usp=sharing
 
 ## References
 - Text classification with the torchtext library: https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html
