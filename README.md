@@ -3,9 +3,10 @@
 * Category: NLP
 * Topic: Transformers Efficiency Improvement
 
-In this project, I explore the performance of the Reformer model on non-sequence-to-sequence tasks. I compare the Reformer model with the original Transformer model on a sentiment analysis task. Specifically, use the IMDB dataset to train and measure the accuracy and F1-score metrics. The detailed of the training and evaluation process can be found in the sentiment_analysis.ipynb notebook.
+In this project, I explore the performance of the Reformer model on non-sequence-to-sequence tasks by comparing it with the original Transformer model on a sentiment analysis task. Utilizing the IMDB dataset, the models are trained and their accuracy and F1-score metrics are measured. Detailed information about the training and evaluation process can be found in the sentiment_analysis.ipynb notebook.
 
-Based on the results, I observed that the Reformer model can achieve similar performance as the original Transformer model on the sentiment analysis task. However, the Reformer model exhibits more fluctuation in training loss compared to the Transformer. This variability is likely due to the Reformer's use of locality-sensitive hashing for attention, which introduces approximations that can affect training stability.
+The results indicate that the Reformer model achieves performance similar to that of the original Transformer model on the sentiment analysis task. However, the Reformer model exhibits more fluctuation in training loss compared to the Transformer. This variability is likely due to the Reformer's use of locality-sensitive hashing for attention, which introduces approximations that can affect training stability.
+
 
 ## Experiment Results
 |                        | Accuracy | F1-Score |  
